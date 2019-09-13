@@ -23,7 +23,7 @@ NOTES:
 
 - That it is a simulation very close to reality means that you have to adjust all the parameters very well so that the phase recovery is possible. 
 
-- - Yes, an interpolation of the incoming phase is neccesary to be sure that the propagation is good. Maybe you can define the phase in such as resolution. 
+- Yes, an interpolation of the incoming phase is neccesary to be sure that the propagation is good. Maybe you can define the phase in such as resolution. 
 
 - The simulator is complex and has a lot of details. I tested it for very specific situations. However, I may have missed some unexpected bugs present with other configurations. If you find one bug, please send me the 'example.m' file with your configuration. Take into account that if you put some crazy parameters, maybe the simulator fails (read following comment).
 
