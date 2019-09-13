@@ -52,6 +52,8 @@ CALCULATIONS
 
 - Each time the configuration is changed, the calculation of the reference centroids is calculated.
 
+- The methodology used for propagations between the grid and the detector is the one described in https://github.com/SergioBonaqueGonzalez/Wavefront-Propagator
+
 INPUTS:
 
     INPUTS are 4 structs and an incoming phase as follow:
