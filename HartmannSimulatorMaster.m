@@ -12,11 +12,19 @@ behaviour, and then it simulates the answer for a given phase and intensity wave
 It has been written for a very specific purpose. So, I have not tested all possible configurations and maybe there are still some bugs. Please, if you find one send me the 'example.m' file with the used configuration.
 
 NOTES:
+- You have an 'example.m' file. I suggest you to play with that file. 
+
+- That it is a simulation very close to reality means that you have to adjust all the parameters very well so that the phase recovery is possible. 
+
+- - Yes, an interpolation of the incoming phase is neccesary to be sure that the propagation is good. Maybe you can define the phase in such as resolution. 
+
+- The simulator is complex and has a lot of details. I tested it for very specific situations. However, I may have missed some unexpected bugs present with other configurations. If you find one bug, please send me the 'example.m' file with your configuration. Take into account that if you put some crazy parameters, maybe the simulator fails (read following comment).
+
 - IMPORTANT:physical propagation of waves is complex. So DO NOT IGNORE the
 example of propagation image provided by the software. If the PSF is not
 good or has artifacts, increase the resolution of the detector. It will
-imply that the detector image will not fit not fit its real size, but the phase
-recovering will do.
+imply that the detector image will not fit its real size, but the phase
+recovering will do. Additionally, if the example image is not good, it is normal that the following images have no sense. 
 
 - Hartmann grid is built assuming pinholes are equispaced following a rectangular setup and that there is a space between the edge's pinholes and the edge itself equal to the distance between pinholes.
 
@@ -41,14 +49,18 @@ check the script with zero phase (so, the recovered phase is zero), comment
 lines from "quantization of the signal, introduction of pho...." to
 "Calculation of shot and read noise" in 'hartmann_calc.m'
 
--The integration procedure is the described in:
+- The integration procedure is the described in:
 L. Huang, J. Xue, B. Gao, C. Zuo, and M. Idir, "Spline based least squares integration for two-dimensional shape or wavefront reconstruction," Optics and Lasers in Engineering 91, 221-226 (2017)
  and downloaded from https://github.com/huanglei0114/Spline-based-least-squares-integration-for-two-dimensional-shape-or-wavefront-reconstruction
 
--In order to maintain the matrix's length in a reasonable size, with some
+- In order to maintain the matrix's length in a reasonable size, with some
 configurations the airy disk has a "hole" in the center. It is normal, and
 it occurs with slight decentrations of the pupil. IT DOES NOT AFFECT TO
 CALCULATIONS 
+
+- Each time the configuration is changed, the calculation of the reference centroids is calculated.
+
+- The methodology used for propagations between the grid and the detector is the one described in https://github.com/SergioBonaqueGonzalez/Wavefront-Propagator
 
 INPUTS:
     INPUTS are 4 structs and an incoming phase as follow:
