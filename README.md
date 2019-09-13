@@ -6,6 +6,8 @@ Created by:
  
  sergiob@wooptix.com
  
+ https://www.linkedin.com/in/sergiobonaque/
+ 
  August,2019 - Wooptix S.L. 
  
  
