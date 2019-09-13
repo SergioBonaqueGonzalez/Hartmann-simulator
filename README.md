@@ -1,9 +1,14 @@
 # Hartmann-simulator
 
 Created by:
+
  Sergio Bonaque-Gonzalez. Optical Engineer.
+ 
  sergiob@wooptix.com
+ 
  August,2019 - Wooptix S.L. 
+ 
+ 
 
 This program simulates the response of a Hartmann sensor with respect a user-defined incoming phase.
 It first defines the geometry of the Hartmann sensor and the detector
@@ -12,11 +17,21 @@ behaviour, and then it simulates the answer for a given phase and intensity wave
 It has been written for a very specific purpose. So, I have not tested all possible configurations and maybe there are still some bugs. Please, if you find one send me the 'example.m' file with the used configuration.
 
 NOTES:
+- Read the documentation at the begining of 'HartmannSimulatorMaster.m'.
+
+- You have an 'example.m' file. I suggest you to play with that file. 
+
+- That it is a simulation very close to reality means that you have to adjust all the parameters very well so that the phase recovery is possible. 
+
+- - Yes, an interpolation of the incoming phase is neccesary to be sure that the propagation is good. Maybe you can define the phase in such as resolution. 
+
+- The simulator is complex and has a lot of details. I tested it for very specific situations. However, I may have missed some unexpected bugs present with other configurations. If you find one bug, please send me the 'example.m' file with your configuration. Take into account that if you put some crazy parameters, maybe the simulator fails (read following comment).
+
 - IMPORTANT:physical propagation of waves is complex. So DO NOT IGNORE the
 example of propagation image provided by the software. If the PSF is not
 good or has artifacts, increase the resolution of the detector. It will
 imply that the detector image will not fit its real size, but the phase
-recovering will do.
+recovering will do. Additionally, if the example image is not good, it is normal that the following images have no sense. 
 
 - Hartmann grid is built assuming pinholes are equispaced following a rectangular setup and that there is a space between the edge's pinholes and the edge itself equal to the distance between pinholes.
 
