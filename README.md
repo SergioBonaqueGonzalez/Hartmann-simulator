@@ -116,7 +116,6 @@ OUTPUTS:
 
 These are the result of the 'example.m' file:
 
-![My image1](/imgs/1.png)   
 ![My image2](/imgs/2.png)  
 ![My image3](/imgs/3.png)   
 ![My image4](/imgs/4.png)   
