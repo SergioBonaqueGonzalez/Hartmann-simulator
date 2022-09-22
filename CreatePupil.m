@@ -5,7 +5,7 @@ used in the context of the hartmann simulator program, so the inputs is a
 struct containing the hartmann configuration.
 
 Created by Sergio Bonaque-Gonzalez. Optical Engineer.
-sergiob@wooptix.com
+sergio.bonaque.gonzalez@gmail.com
 %}
 xp = linspace(-1,1,hartmann.phresolution);
 hartmann.pupils = ones(hartmann.phresolution, hartmann.phresolution);
