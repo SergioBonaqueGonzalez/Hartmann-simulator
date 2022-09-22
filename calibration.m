@@ -3,8 +3,8 @@ function calibration(config,hartmann,detector,phase)
 This function makes the calibration file for the hartmann simulator
 
 Created by Sergio Bonaque-Gonzalez, PhD. Optical Engineer
-sergiob@wooptix.com
-August,2019 - Wooptix S.L.
+sergio.bonaque.gonzalez@gmail.com
+August,2019 
 
 INPUTS:
     3 structs (config, hartmann & detector) defined in the same way that
