@@ -10,8 +10,8 @@ single FT, which is the most straightforward. It has not control over spacing in
 This method is desirable because of its computational efficiency.
 
 Adapted by Sergio Bonaque-Gonzalez, PhD. Optical Engineer
-sergiob@wooptix.com
-July,2019 - Wooptix S.L.
+sergio.bonaque.gonzalez@gmail.com
+July,2019 
 
 %}
 
