@@ -2,8 +2,8 @@ function [config,hartmann,detector]=checkCalibration(config,hartmann,detector,ph
 %{
 Created by:
  Sergio Bonaque-Gonzalez. Optical Engineer.
- sergiob@wooptix.com
- August,2019 - Wooptix S.L.
+ sergio.bonaque.gonzalez@gmail.com
+ August,2019 
 
 Check if the calibration file is right for this configuration. If not, the
 calibration procedure is launched
