@@ -6,8 +6,8 @@ struct containing the hartmann configuration.
 
 
 Created by Sergio Bonaque-Gonzalez, PhD. Optical Engineer
-sergiob@wooptix.com
-August,2019 - Wooptix S.L.
+sergio.bonaque.gonzalez@gmail.com
+August,2019 
 %}
 
 %Creates the pupil of a pinhole with the previously calculated resolution
