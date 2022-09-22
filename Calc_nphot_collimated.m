@@ -12,8 +12,8 @@ INPUTS:
 - lambda = %wavelength in meters
 
 Created by Sergio Bonaque-Gonzalez, PhD. Optical Engineer
-sergiob@wooptix.com
-July,2019 - Wooptix S.L.
+sergio.bonaque.gonzalez@gmail.com
+July,2019 
 %}
 
 nphot=round(exposuretime*power/(6.62607004e-34*physconst('LightSpeed')/lambda));
