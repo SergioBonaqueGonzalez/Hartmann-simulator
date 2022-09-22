@@ -6,9 +6,9 @@ Its an adaptation of the methods described in:
 - David Voelz - Computational Fourier Optics (2011)
 
 Adapted by Sergio Bonaque-Gonzalez, PhD. Optical Engineer
-sergiob@wooptix.com
+sergio.bonaque.gonzalez@gmail.com
 
-July,2019 - Wooptix S.L.
+July,2019 
 
 [x2, Uout] = ang_prop(config,object,image)
 %}
