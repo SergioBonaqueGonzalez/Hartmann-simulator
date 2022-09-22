@@ -4,8 +4,8 @@ This function built the detector configuration and places each sub-image in
 its right coordinates
 
 Created by Sergio Bonaque-Gonzalez, PhD. Optical Engineer
-sergiob@wooptix.com
-August,2019 - Wooptix S.L.
+sergio.bonaque.gonzalez@gmail.com
+August,2019
 %}
 detectorImage=zeros(IdealSizeCeil);
 
