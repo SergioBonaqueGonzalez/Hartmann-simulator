@@ -2,8 +2,8 @@ function [result,detectorImage]=hartmann_calc(config,hartmann,detector,phase,sou
 %{
 Created by:
  Sergio Bonaque-Gonzalez. Optical Engineer.
- sergiob@wooptix.com
- August,2019 - Wooptix S.L. 
+ sergio.bonaque.gonzalez@gmail.com
+ August,2019 
 
 This program simulates the response of a Hartmann sensor with respect a user-defined incoming phase.
 It first defines the geometry of the Hartmann sensor and the detector
@@ -128,13 +128,13 @@ classic Poisson process.Photon noise is signal dependent, and its standard
 deviation grows with the square root of the signal. Contrary to popular 
 belief, shot noise experienced by the detector IS related to the QE of the 
 detector! Back-illuminated sensors with higher QE yields a better 
-Signal/Shot Noise ratio. There is a simple intuitive explanation for this –
+Signal/Shot Noise ratio. There is a simple intuitive explanation for this â€“
  shot noise must be calculated from the signal represented by the number 
 of photoelectrons in the sensor (electrons generated from photons falling 
 on the sensor), NOT JUST from the number of incoming photons. Therefore, 
 if an average of 100 photons hit a pixel, but the sensor has a QE of 50% at
 the wavelength of these photons, then an average of 50 photoelectrons will 
-be created – the shot noise and Signal/Shot Noise must be calculated from 
+be created â€“ the shot noise and Signal/Shot Noise must be calculated from 
 this value.
 %}
 %Introduction of Photon Noise
