@@ -4,8 +4,8 @@ Creates a pupil with a defined radius (in %) inside a square matrix of
 given resolution
 
 by Sergio Bonaque-Gonzalez, PhD. Optical Engineer
-sergiob@wooptix.com
-July,2019 - Wooptix S.L.
+sergio.bonaque.gonzalez@gmail.com
+July,2019 
 %}
 xp=linspace(-1,1,resolution);
 [X,Y]=meshgrid (xp,xp); 
