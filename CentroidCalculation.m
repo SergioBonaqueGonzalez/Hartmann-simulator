@@ -1,7 +1,7 @@
 function [cx, cy] = CentroidCalculation(image,method, display)
 %{
 Created by Sergio Bonaque-Gonzalez. Optical Engineer.
-sergio.bonaque@um.es
+sergio.bonaque.gonzalez@gmail.com
 This scripts calculates the centroid of an image by several ways.
 
 INPUTS:
