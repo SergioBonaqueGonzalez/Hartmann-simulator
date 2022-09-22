@@ -3,8 +3,8 @@ function [first, last]= get_fist_last_non_zero_index(data)
 Find the first and last non zero elements in a matrix
 
 by Sergio Bonaque-Gonzalez, PhD. Optical Engineer
-sergiob@wooptix.com
-July,2019 - Wooptix S.L.
+sergio.bonaque.gonzalez@gmail.com
+July,2019 
 %}
 
 suma=sum(data);
