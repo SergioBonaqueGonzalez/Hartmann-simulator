@@ -4,8 +4,8 @@ This function places each image produced by each pinhole in the proper
 coordinates in the sensor
 
 Created by Sergio Bonaque-Gonzalez, PhD. Optical Engineer
-sergiob@wooptix.com
-August,2019 - Wooptix S.L.
+sergio.bonaque.gonzalez@gmail.com
+August,2019 
 %}
 
 %Usable pixels in detector
