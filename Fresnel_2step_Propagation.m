@@ -11,8 +11,8 @@ second FT. It is usefull in applications where the fixed value of grid spacing i
 the observation-plane field adequately
 
 Adapted by Sergio Bonaque-Gonzalez, PhD. Optical Engineer
-sergiob@wooptix.com
-July,2019 - Wooptix S.L.
+sergio.bonaque.gonzalez@gmail.com
+July,2019 
 
 %}
 
