@@ -17,8 +17,8 @@ entrance pupil of the optical system.
 - lambda = %wavelength in meters.
 
 Created by Sergio Bonaque-Gonzalez, PhD. Optical Engineer
-sergiob@wooptix.com
-July,2019 - Wooptix S.L.
+sergio.bonaque.gonzalez@gmail.com
+July,2019 
 %}
 
 spherearea=4*pi*(sourcedistance^2);
