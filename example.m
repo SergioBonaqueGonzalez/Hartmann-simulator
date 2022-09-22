@@ -2,9 +2,9 @@
 Example file for the Hartmann Simulator. See 'HartmannSimulatorMaster.m' for
 complete documentation.
 
-Developed by Sergio Bonaque-Gonz·lez, PhD.
-sergiob@wooptix.com
-September,2019 - Wooptix S.L.
+Developed by Sergio Bonaque-Gonz√°lez, PhD.
+sergio.bonaque.gonzalez@gmail.com
+September,2019 
 %}
 
 clear all
