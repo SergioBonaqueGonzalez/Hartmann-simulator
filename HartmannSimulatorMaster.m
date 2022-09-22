@@ -2,8 +2,8 @@ function [result,detectorImage]=HartmannSimulatorMaster(config,hartmann,detector
 %{
 Created by:
  Sergio Bonaque-Gonzalez. Optical Engineer.
- sergiob@wooptix.com
- August,2019 - Wooptix S.L. 
+ sergio.bonaque.gonzalez@gmail.com
+ August,2019 - 
 
 This program simulates the response of a Hartmann sensor with respect a user-defined incoming phase.
 It first defines the geometry of the Hartmann sensor and the detector
