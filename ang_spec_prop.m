@@ -6,8 +6,8 @@ Its an adaptation of the methods described in:
 - David Voelz - Computational Fourier Optics (2011)
 
 Adapted by Sergio Bonaque-Gonzalez, PhD. Optical Engineer
-sergiob@wooptix.com
-July,2019 - Wooptix S.L.
+sergio.bonaque.gonzalez@gmail.com
+July,2019 
 
 function [x2 y2 Uout] = ang_spec_prop(Uin, wvl, d1, d2, Dz)
 %}
