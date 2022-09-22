@@ -4,7 +4,7 @@ Created by:
 
  Sergio Bonaque-Gonzalez. Optical Engineer.
  
- sergiob@wooptix.com
+ sergio.bonaque.gonzalez@gmail.com
  
  https://www.linkedin.com/in/sergiobonaque/
  
