@@ -2,9 +2,9 @@ function [x2,Intensity,Uout]=Propagator_ultimate(lambda,z,phase,pupil,L1,L2,N2,c
 
 %{
 Methodology for the propagation of a phase in free space, assuming coherent illumination.
-Developed by Sergio Bonaque-González, PhD.
-sergiob@wooptix.com
-July,2019 - Wooptix S.L.
+Developed by Sergio Bonaque-GonzÃ¡lez, PhD.
+sergio.bonaque.gonzalez@gmail.com
+July,2019 
 
 INPUTS:
 lambda=wavelength in meters
@@ -59,7 +59,7 @@ image.delta=image.L/image.N;%Grid spacing in image plane
 %%%%%% CHOOSING METHOD FOR PROPAGATION%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %{
 When light propagates very far from its source aperture, the optical field in the observation plane is very closely approximated by the Fraunhofer diffraction integral
-According to Goodman, “very far” is defined by the inequality:
+According to Goodman, â€œvery farâ€ is defined by the inequality:
 %}
 if config.z>2*(object.L^2)/config.lambda
     method='fraunhofer';
